@@ -9,7 +9,8 @@ naver 로그인 api (네아로)
 **Callback URL**
 - http://localhost:8080/tst/callback
 
-
+-------------
+-------------
 ## (+)추가 내용: 모두의 주방_ UserController.java  
 - 나만의 네아로 로그인 , 로그아웃 구현 방법  (war/zip 파일에 없는 부분 , 모두의 주방 프로젝트에만 추가하는 내용)
 - 컨트롤러 수정한 부분
