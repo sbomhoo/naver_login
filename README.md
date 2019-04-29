@@ -10,8 +10,8 @@ naver 로그인 api (네아로)
 - http://localhost:8080/tst/callback
 
 
-## 모두의 주방_ UserController.java  
-- 나만의 네아로 로그인 , 로그아웃 구현 방법  (이 파일에 없는 부분 , 모두의 주방 프로젝트에만 추가하는 내용)
+## (+)추가 내용: 모두의 주방_ UserController.java  
+- 나만의 네아로 로그인 , 로그아웃 구현 방법  (war/zip 파일에 없는 부분 , 모두의 주방 프로젝트에만 추가하는 내용)
 - 컨트롤러 수정한 부분
  1. 첫 로그인form 요청 받았을 때 loginForm로직에 naverAuthUrl 만들어 놓기
  2. 기존의 모두의 주방 회원으로 로그인하는 로직(loginAction)은 그대로 둔다. 
