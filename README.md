@@ -15,7 +15,7 @@ naver 로그인 api (네아로)
 - 컨트롤러 수정한 부분
  1. 첫 로그인form 요청 받았을 때 loginForm로직에 naverAuthUrl 만들어 놓기
  2. 기존의 모두의 주방 회원으로 로그인하는 로직(loginAction)은 그대로 둔다. 
- 3. 네이버 로그인 성공 시 로직(callback)을 새로 작성 , 여기서 String형식의 json 데이터인 'apiResult'를 파싱하여 세션에 저장
+ 3. 네이버 로그인 성공 시 로직(callback)을 새로 작성, 여기서 String형식의 json데이터인 'apiResult'를 파싱하여 세션에 저장
 
 ```java 
 	//로그인
